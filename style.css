@@ -665,3 +665,34 @@ background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+
     color: #fff;
  }
 
+ @media screen and (max-width: 820px){
+    
+    .footer_links{
+        padding-top: 2rem;
+    }
+
+    #footer_logo {
+        margin-bottom: 2rem;
+    }
+
+    .website_rights {
+        margin-bottom: 2rem;
+    }
+
+    .footer_link_wrapper {
+        flex-direction: column;
+    }
+
+    .social_media_wrap {
+        flex-direction: column;
+    }
+ }
+
+ @media screen and (max-width: 480px){
+    .footer_link_items{
+        margin: 0;
+        padding: 15px;
+        width: 100%;
+    }
+ }
+
